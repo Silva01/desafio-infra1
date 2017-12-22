@@ -6,7 +6,7 @@
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
 Vagrant.configure("2") do |config|  
-  config.vm.box = "centos/7"
+  config.vm.box = "relativkreativ/centos-7-minimal"
   config.vm.network "private_network", ip: "192.168.23.3"
   config.ssh.username = "vagrant"
   config.ssh.password = "vagrant"   
